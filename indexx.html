@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive website </title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1>Restaurant</h1>
+          
+                <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">Home</a>
+                <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">About</a>
+                <a data-aos="zoom-in-left" data-aos-delay="600" href="#services">Meal</a>
+                <a data-aos="zoom-in-left" data-aos-delay="750" href="#plan">Gallery</a>
+                <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">Menu</a>
+                <a data-aos="zoom-in-left" data-aos-delay="1050" href="#review">Order</a>
+                <a data-aos="zoom-in-left" data-aos-delay="1200" href="#contact">Blogs</a>
+            
+                <input type="checkbox" id="theme-switch">
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="image-container">
+            <!-- image present in background -->
+            <img src="https://static.vecteezy.com/system/resources/previews/023/776/094/large_2x/delicious-pasta-dish-with-sauce-on-dark-background-perfect-for-food-and-italian-cuisine-themes-generative-ai-photo.jpg" alt="Restaurant Image">
+            <!-- text which is in centred -->
+            <div class="image-text">
+                <h1>Welcome</h1>
+                <h1>To Our </h1>
+                <h1>Restaurant</h1>
+                <p> order now </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="card">
+                <img src="https://www.eatingwell.com/thmb/ZIsM-f-uVmqWx7JlJNsBFMCVOaY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HashBrown-5-e1941c86066346e8a592e4c589d4933d.jpg" alt="Chef Image">
+                <h3>what makes our resturant special</h3>
+                <p>A polite and friendly staff, minimal time spent in taking and serving orders, and a relaxed restaurant atmosphere are sure to leave a lasting impression on the minds of guests. A happy and satisfied staff that is high on morale is also more likely to have positive interactions with customers</p>
+            </div>
+            <div class="card">
+                <h2>our gallery</h2>
+                <img src="https://www.mjandhungryman.com/wp-content/uploads/2022/07/Healthy-foods-for-1-year-old.jpg" alt="Image gallery">
+            </div>
+            <!-- Add more things you wish -->
+        </div>
+    </section>
+
+    <section class="our menu">
+        <div class="container">
+            <h2>Menu</h2>
+            <div class="category">
+                <h3>Appetizers</h3>
+                <div class="menu-item">
+                    <img src="https://abeautifulmess.com/wp-content/uploads/2023/01/pigs-in-a-blanket.jpg" alt="Appetizer 1">
+                    <h4>Appetizer 1</h4>
+                    <p>This appetizers included shrimp with cocktail sauce, vegetables and dips, cheeses, and fruits.something that stimulates a desire for more. a literary appetizer.</p>
+                    <span>$8</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://www.eatingwell.com/thmb/hIAkWnUw3PQvhkdimzchzjFQ6l8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chile-spiced-delicata-squash-crostini-88abb1c37a014f419a31dce900cd4f01.jpg" alt="Appetizer 2">
+                    <h4>Appetizer 2</h4>
+                    <p>appetizers are intended to be provocative, they enable the diner to enjoy foods that are too pronounced in taste or too rich to be eaten in larger quantities.</p>
+                    <span>$10</span>
+                </div>
+                <!-- here we can add more item as we wish  -->
+            </div>
+            <div class="category">
+                <h3>Main Courses</h3>
+                <p>La Quiche Lorraine, Le Cassoulet, La Blanquette de Veau, Les Cuisse de Grenouilles, Le Croque- Monsieur, Le Gratin Dauphinois, Le Boeuf Bourguignon and Le Coq Vin </p>
+               <h3>la Quiche Lorraine</h3>
+               <p>gh hgsfd hjdgdfddh bhfgf jjhfjnf ookjfdd </p>
+               <span> $8 </span>
+                <!-- more iteam can be addes as  main courses -->
+            </div>
+            <!--add more item here -->
+        </div>
+        <div class="our blog">
+            <h2> our blog </h2>
+        </div>
+    </section>
+     <!-- more item can be added here -->
+
+    <section class="order-now">
+        <div class="container">
+            <h2>Place Your Order</h2>
+            <form id="order-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="order-details">Order Details:</label>
+                <textarea id="order-details" name="order-details" required></textarea>
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
